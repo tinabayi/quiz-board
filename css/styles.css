@@ -2,6 +2,9 @@
 #points{
     display:none;
 }
+img{
+    margin-left:180px;
+}
 footer{
    background-color: blueviolet;
    height: 200px;
