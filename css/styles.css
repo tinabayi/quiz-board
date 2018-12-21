@@ -2,3 +2,12 @@
 #points{
     display:none;
 }
+footer{
+   background-color: blueviolet;
+   height: 100px;
+   text-align: center;
+
+padding:20px;
+font-family: sans-serif;
+font-size: 20px;
+}
