@@ -14,7 +14,7 @@
  ## project setup instructions
  ~~~
  Have Visual Studio Code software intalled on 
- your laptop
+ your laptop.Then use Google chrome and Mozilla to browse the webpage
  ~~~
  ## link to live site on GitHub Pages
  ~~~
@@ -22,6 +22,6 @@
  ## copyright and license information
  ~~~
  This project is licensed under the MIT License - see the LICENSE.md file for details
- 
+
 
 
