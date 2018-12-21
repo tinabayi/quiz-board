@@ -19,6 +19,8 @@ $(document).ready(function() {
     $(".mark").text(score);
     $("#points").show();
     event.preventDefault();
+
+
 });
 
 });
