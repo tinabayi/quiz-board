@@ -5,58 +5,73 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       <script src="js/scripts.js"></script>
-      <title>A fantastical adventure</title>
+      <title>Quiz Board</title>
    </head>
    <body>
+     
       <div class="container">
-         <h1>1.What is the shortform of HTML</h1>
-         <div id="blanks">
-            <form>
+        <h1>JavaScript Quiz Board</h1>
+      <div id="question">
+         <form>
+          <h2>1.What is the shortform of HTML</h2>
+          
+          
+           <div class="radio">                    
+                  <label><input type="radio" name="question1" value="HMLT">HTml</label>
+                </div>
+
                 <div class="radio">
-                    <label>
-                      <input type="radio" name="flavor" value="HMLT" id="answer1">
-                      HTml
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="flavor" value="HMLT" id="answer2">
-                      HMLT
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="flavor" value="MLHT" id="answer3">
-                      MLHT
-                    </label>
+                    <label><input type="radio" name="question1" value="HMLT">HMLT</label>
+                </div>
+               <div class="radio">
+                    <label><input type="radio" name="question1" value="MLHT">MLHT</label>
                   </div> 
-                  <div class="container">
-                    <h1>2.Where is the correct place to insert a JavaScript?</h1>
-                    <div id="blanks">
-                       <form>
-
-
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="flavor" value="The <body> section" id="answer1">
-                        The <body> section
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="flavor" value="HMLT" id="answer2">
-                      HMLT
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="flavor" value="MLHT" id="answer3">
-                      MLHT
-                    </label>
-                  </div>
+          
                 
+                <h2>2.Where is the correct place to insert a JavaScript?</h2>
+                    
+               <div class="radio">
+                    <label><input type="radio" name="question2" value="The body section">The body section </label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="question2" value="Both the head section and the body section are correct"> Both the head section and the body section are correct</label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="question2" value="The head section">The head section </label>
+                  </div>  
+                  
+                    
+                  <h2>3.How do you declare a JavaScript variable</h2>
+                   <div class="radio">
+                      <label><input type="radio" name="question3" value="variable carName"> variable carName
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label><input type="radio" name="question3" value="var carName"> var carName
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label></label><input type="radio" name="question3" value="V carName" id="answer9">V carName</label>
+                    </div>
+                    
+                    
+                      
+                <h2>4.Which built-in method calls a function for each element in the array?</h2>
+
+                  <div class="radio">
+                    <label> <input type="radio" name="question4" value="while()">while()
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="question4" value="loop"> loop() </label>
+                  </div>
+                  <div class="radio">
+                    <label> <input type="radio" name="question4" value="forEach">forEach()</label>
+                  </div>
+                  
                <button type="submit" class="btn">submit</button>
             </form>
+      </div>
         
       </div>
    </body>
