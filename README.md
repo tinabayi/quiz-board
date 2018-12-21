@@ -18,6 +18,7 @@
  ~~~
  ## link to live site on GitHub Pages
  ~~~
+ https://tinabayi.github.io/quiz-board/
  ~~~
  ## copyright and license information
  ~~~
