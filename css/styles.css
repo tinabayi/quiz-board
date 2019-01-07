@@ -1,9 +1,13 @@
 
+body{
+  background-color:blueviolet; 
+}
+
 #points{
     display:none;
 }
 img{
-    margin-left:180px;
+    margin-left:400px;
 }
 footer{
    background-color: blueviolet;
@@ -60,4 +64,7 @@ font-size: 20px;
   }
 .kk{
     color: blue;
+}
+#one{
+  text-align: center;
 }
